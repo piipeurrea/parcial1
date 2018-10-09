@@ -146,7 +146,7 @@ order by rector;
 
 --7.5 Muestre el nombre del colegio, el barrio, la dirección de aquellos colegios que estén ubicados en la zona rural y tengan algún tipo de clasificación en el ICFES. Además deberá traer aquellos colegios que enseñan a más de 200 estudiantes adultos
 --	Columnas: barrio, numero_colegios
-select *
+select colegios.nombre_sede, colegios.barrio, colegios.direccion_sede
 from colegios
 
 
